@@ -5,7 +5,7 @@ class Crud:
         self.__listMhs = []
     
     def tambah(self):
-        print("\n")
+        print()
         nama = input("Masukkan nama     : ")
         nim = input("Masukkan nim      : ")
         prodi = input("Masukkan prodi    : ")
@@ -15,6 +15,7 @@ class Crud:
         print( nama + " berhasil ditambahkan!\n")
     
     def ubah(self):
+        print()
         if len(self.__listMhs)==0:
             print("Data tidak ada")
         else:
@@ -63,6 +64,7 @@ class Crud:
         print()
 	
     def hapus(self):
+        print()
         if len(self.__listMhs)==0 :
             print("Data tidak ada")
         else:
